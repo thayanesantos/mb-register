@@ -1,7 +1,7 @@
 # 
 # 📝 Cadastro de Usuários - MB-project
 
-Aplicação web desenvolvida como parte de um teste técnico, com objetivo de construir um formulário de **cadastro de usuários** dividido em 4 etapas, com validações, responsividade e integração com API mock em Node.js e Express.js.
+Aplicação web desenvolvida como parte de estudos pessoais, com objetivo de construir um formulário de **cadastro de usuários** dividido em 4 etapas, com validações, responsividade e integração com API mock em Node.js e Express.js.
 
 ---
 
