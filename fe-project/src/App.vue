@@ -1,52 +1,22 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-import TheButton from './components/TheButton.vue'
 import FormRegister from './components/FormRegister.vue'
 </script>
 
 <template>
-  <!-- <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header> -->
   
-  <!-- <main>
-    <TheWelcome />
-  </main> -->
-  <body>
-    <FormRegister />
-  </body>
+  <main>
+    <div class="box-form-center">
+      <FormRegister />
+    </div>
+  </main>
+
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
+.box-form-center{
+  width: 31em;
+    background: aliceblue;
+    padding: 40px;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
 </style>
